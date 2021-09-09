@@ -42,3 +42,18 @@ int num1 = 10, num2 = 5, num3 = 3;
   print(divite);
   
 }
+// take input from user and calculate them
+
+import 'dart:io';
+
+main() {
+print("what's your first number");
+int num1 = int.parse(stdin.readLineSync());
+print("what's your second number");
+int num2 = int.parse(stdin.readLineSync());
+var sum = num1 + num2;
+print("Answer");
+print ("$num1 + $num2 = $sum");
+
+
+}
