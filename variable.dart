@@ -26,4 +26,13 @@ void main() {
   print(k);
   print(l);
   print(M);
+  //unchangle able veriable
+  /* you can't change the variable value. final and const for fixed value. 
+  */
+  final birth_year = 1997;
+  // birth_year = 2001; you can't change the value. problem show
+  print(birth_year);
+  const bth_year = 1997;
+  // bth_year = 2001; you can't change the value. problem show
+  print(birth_year);
 }
