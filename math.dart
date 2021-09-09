@@ -23,4 +23,22 @@ int num1 = 10, num2 = 5, num3 = 3;
   print(division);
   print(division.toStringAsFixed(2));
   
+  
+  //math 3
+  int num1 = 20;
+  int num4 = 60;
+  var divite; // you can use var of double only. 
+ 
+  divite = num4 / num1;
+  print(divite);
+  
+  
+  // problem
+  int num1 = 20;
+  int num4 = 60;
+  int divite; // you can't use int in divition.
+ 
+  divite = num4 / num1;
+  print(divite);
+  
 }
