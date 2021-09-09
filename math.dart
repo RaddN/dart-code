@@ -5,11 +5,11 @@ main() {
   int num4 = 60;
   var sum, sub, multiply, divite;
   sum = num1 + num2;
-  print(sum);
-  sub = num3 - num4;
-  print(sub);
+  print("The summation is : $sum");
+  sub = num4 - num3;
+  print("The Submation is : $sub");
   multiply = num4 * num2;
-  print(multiply);
+  print("The multipication is : $multiply");
   divite = num4 / num1;
-  print(divite);
+  print("The divitation is : $divite");
 }
