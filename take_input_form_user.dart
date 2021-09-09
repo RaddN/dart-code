@@ -6,9 +6,9 @@ main() {
 	
 	
 	print("Movie name");
-	String ?/* question mark is nor null safety*/ movieName = stdin.readLineSync(); 
+	String ?/* question mark is nor null safety*/ movieName = stdin.readLineSync()!; 
 	print("Movie director name");
-	String directorName = stdin.readLineSync();
+	String ? directorName = stdin.readLineSync()!;
 	print("Movie name is : $movieName , Director name is: $directorName");
 	
   
