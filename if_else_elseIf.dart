@@ -9,3 +9,20 @@ print("You need hardwork");
 
 
 }
+
+
+
+
+main() {
+int marks = 91;
+if (marks>90) {
+print("best");
+}
+else if (marks>80) {
+print("You need hardwork");
+}
+else {
+print("averge");
+}
+
+}
