@@ -25,7 +25,7 @@ void valupass(a , b){
  var sum = a+b;
  print(sum);
 }
-// return
+// return a value from function
 void main(){
  print(plus()+40); 
 }
@@ -35,3 +35,12 @@ int plus(){
   int c = 70;
   return c;
 }
+//String 
+void main(){
+	print(myname());
+}
+String myname(){
+	String Name="Raihan Hossain";
+	return Name;
+}
+
