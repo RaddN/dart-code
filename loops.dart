@@ -59,3 +59,15 @@ void main(){
   }
   print("The summation is : $sum");
 }
+// do while loop
+
+void main () {
+int i = 6;
+  do {
+  print(i);
+    sum = sum + i; 
+    i++;
+  }
+  while (i<5); // 6 is not less then 5. kintu akhane akbar result dekhabe. condition na mana sorteo. jodi ati while kinba for loop a calano hoy tahole kono result dekhabe na.
+ // orthat do while a akbar do hoye jay. tarpor conditon check kora hoy. 
+}
