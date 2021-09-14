@@ -33,3 +33,29 @@ void main() {
  }
  print("sum = $sum");
 }
+
+// while loops
+
+void main (){
+int i = 1;
+  while (i<=n){
+    print(i);
+    i++;
+  }
+}
+
+//loops with user input
+import 'dart:io';
+void main(){
+  int sum = 0;
+  print("Input the limit value");
+  int n = int.parse(stdin.readLineSync());
+  print("The first $n number is: ");
+  int i = 1;
+  while (i<=n){
+    print(i);
+    sum = sum + i; 
+    i++;
+  }
+  print("The summation is : $sum");
+}
