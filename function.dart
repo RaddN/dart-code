@@ -25,3 +25,13 @@ void valupass(a , b){
  var sum = a+b;
  print(sum);
 }
+// return
+void main(){
+ print(plus()+40); 
+}
+int plus(){
+ int a =10;
+  int b =40;
+  int c = 70;
+  return c;
+}
