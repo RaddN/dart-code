@@ -26,7 +26,7 @@ void main(){
   int sum = 0;
   print("Input the limit value");
   int n = int.parse(stdin.readLineSync());
-  print("The first $n number is: ")
+  print("The first $n number is: ");
   for(int i = 1; i<=n; i++){
     print(i);
     sum = sum + i;
