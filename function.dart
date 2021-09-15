@@ -44,3 +44,30 @@ String myname(){
 	return Name;
 }
 
+void main () {
+  sakib();
+  musfiq("Musfiqur Rohim", 23, "Dhaka", "24 september 1996");
+  print(mashrafi()[0]);
+  print(mashrafi()[1]);
+  print(mashrafi()[2]);
+  print(mashrafi()[3]);
+}
+dynamic sakib(){
+  var fullName = "Sakib Al Hasan";
+  var age = 30;
+  var city = "Dhaka";
+  var dateOfBirth ="16 july 1980";
+  print("Hello I'm $fullName. I'm $age years old. I'm from $city. $dateOfBirth is my birth date.");
+}
+dynamic musfiq(var fullName, age, city, dateOfBirth){
+  print("Hello I'm $fullName. I'm $age years old. I'm from $city. $dateOfBirth is my birth date.");
+}
+// multiple return varibale
+dynamic mashrafi(){
+  var fullName = "Mashrafi Bin Mortaja";
+  var age = 30;
+  var city = "Dhaka";
+  var dateOfBirth ="16 july 1980";
+  return [fullName, age, city, dateOfBirth];
+}
+
