@@ -1,5 +1,6 @@
 void main(){
  var family = new father(); // creating an object
+ // new is keyword you can use it if you want. It's not neccery. 
  family.son(); // calling son function
  family.secondSon(); // calling secondson function
 }
