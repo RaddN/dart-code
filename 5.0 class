@@ -1,0 +1,18 @@
+void main(){
+ var family = new father(); // creating an object
+ family.son(); // calling son function
+ family.secondSon(); // calling secondson function
+}
+// class is a father and it's function's are her son's.
+class father{
+// first son
+  void son(){
+    int child = 2;
+    print(child);
+  }
+  // second son
+  void secondSon(){
+    int child = 3;
+    print(child);
+  }
+}
