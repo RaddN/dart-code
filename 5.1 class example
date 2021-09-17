@@ -1,0 +1,28 @@
+void main(){
+  var animal = new animals();
+  animal.cat();
+  print(animal.dog());
+  animal.farrot("farrot", "under the souil", "white");
+}
+
+class animals {
+  // Global variable 
+  String type = "domistic Animal";
+  void cat(){
+    //local varibale
+    var name = "cat";
+    var color ="white, white-black and ect";
+    var home = "with humans";
+  print("$name is a $type. They lives $home. There are color is $color");
+  }
+  String dog(){
+    var name = "Dog";
+    var color ="white, white-black and ect";
+    var home = "with humans";
+    var showdata = "$name is a $type. They lives $home. There are color is $color";
+    return showdata;
+  }
+  dynamic farrot(name, home, color){ // you can use void, dynamic here. String, int isn't useable.
+    print("$name is a $type. They lives $home. There are color is $color");
+  }
+}
