@@ -34,3 +34,22 @@ class set_get{
     Roll = r;
   }
 }
+
+// another example 
+
+void main() {
+	Student ob1 = new Student();
+ ob1.mark = 960;
+ print(ob1.mark);
+}
+
+class Student{
+  var name;
+  var result;
+void set mark(number){
+result = (number/1100)*100;
+}
+double get mark{
+return result;
+}
+}
