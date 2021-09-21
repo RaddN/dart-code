@@ -1,3 +1,17 @@
+// degault setter and getter
+void main() {
+	Student ob1 = new Student();
+  ob1.name = "kamal"; // Default setter
+  print(ob1.name);// Default getter
+}
+
+class Student{
+  var name;
+  var result;
+}
+
+// custom setter and custom getter
+
 //crate a file main.dart
 import 'set_get.dart';
 void main() {
