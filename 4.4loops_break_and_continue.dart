@@ -1,21 +1,20 @@
 //loops continue 
+// loops continue is only works on for loops. you can't use continue in while and do while loop.
 void main(){
-  main2();
   print("\n");
   var i = 0;
-  while(i<=10){
+  for(i=0;i<=10;i++){
     if(i == 4){
       continue;
     }
    print(i);
-   i++;
   }
 }
 //output 0,1,2,3,5,6,7,8,9,10   4 isn't printout 
 
 
 // loops break
-void main2(){
+void main(){
   var i = 0;
   while(i<=10){
     if(i == 7){
