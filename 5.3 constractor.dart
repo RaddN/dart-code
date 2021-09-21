@@ -1,5 +1,7 @@
 // constractor is a special type of function or method
 // you don't need to call a constractor
+// No return type
+// constractor name is same as class name
 void main(){
   var obj = new Student.c1("Raihan", 25, 2589658, "Male");
   // Student student1 = new Student.c1();
