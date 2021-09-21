@@ -36,3 +36,20 @@ void main() {
   // bth_year = 2001; you can't change the value. problem show
   print(birth_year);
 }
+
+// list data attaching method
+void main(){
+  var mylist = new List();
+  mylist.add("Raihan");
+  mylist.add("52");
+  mylist.add("Raihan");
+  mylist.add("R56aihan");
+  mylist.add("Rai585han");
+  mylist.add("859");
+  mylist.add("Raihan");
+  mylist.add("582");
+  mylist.add("Raihan");
+  print(mylist);
+}
+
+
