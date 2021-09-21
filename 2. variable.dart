@@ -51,5 +51,7 @@ void main(){
   mylist.add("Raihan");
   print(mylist);
 }
+// output [Raihan, 52, Raihan, R56aihan, Rai585han, 859, Raihan, 582, Raihan] 
+// list create
 
 
